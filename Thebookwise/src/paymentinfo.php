@@ -1,0 +1,27 @@
+<?php
+	include_once 'header.php';
+?>
+	<hr class="line1">
+<div class = "Dhanuka">
+	<br>
+	<br><h2><u><b>Payment Details</b></u></h2>
+	<br><br>
+	<p><b>Online Payments</b></p>
+		<div class = "picons">
+			<img src="images/visa.png">
+			<img src="images/mastercard.png">
+			<img src="images/paypal.png">
+		</div>
+	<br><br><br><br><br>
+	<p><b>Cash On Delivery</b></p>
+	<p>Make the payment directly to the Delivery Agent once you have recieved the order at your doorstep.
+	<br><br><br>
+	<p><b>E-Wallet</b></p>
+	<div class = "picons">
+	<img src="images/google-wallet.png">
+	</div>
+</div>	
+	
+<?php
+	include_once "footer.php";
+?>

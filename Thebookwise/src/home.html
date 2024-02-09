@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The BookWise</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<center>
+	<header>
+		<h5>The BookWise Online Book Store</h5>
+	</header>
+	</center>
+
+	<div class="div1">
+		<a href="home.html"><img src="images/the1.png"></a>
+	</div>
+	
+	
+<section>
+
+	<div class="div2">
+		<a href="myprofile.html"><img src="images/profile.png"></a><br><br>
+		<button class="lgn"><a href="login.php"><span>Login</span></a></button>
+		<button class="sgn"><a href="signup.php"><span>Sign in</span></a></button>
+	</div>
+
+	<div class="div3">
+	
+			<div class="cart">
+				<button><a href="checkout.html"><img src="images/scart.png"></a></button>
+			</div>
+			
+			<div class="search">
+				<button type="submit"><img src="images/search.png"></button>
+				<input type="text" id="find" placeholder="Search books here..." onkeyup="search()">
+			</div>
+	
+			<div class="menu">
+				<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="Catagories.html">Category</a></li>
+				<li><a href="paymentinfo.html">Payment Info</a></li>
+				</ul>
+			</div>
+	</div>
+	
+</section>
+
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="images/slider1.png">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/slider2.png">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/slider3.png">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="images/slider4.png">
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<center><hr class="line"></center>
+
+
+<div class="shop-content">
+	<div class="bitems">
+		<img src="images/bio1.jpeg" class="item-img" >
+		<h3 class="item-title">MICHELLE OBAMA</h3>
+		<span class="price">Rs.1000</span><br>
+		<button class="addto">Add To Cart</button>
+	</div>
+
+	<div class="bitems">
+		<img src="images/bio2.jpeg" class="item-img">
+		<h3 class="item-title">ABRAHAM LINCOLN</h3>
+		<span class="price">Rs.1200</span><br>
+		<button class="addto">Add To Cart</button>
+	</div>
+
+	<div class="bitems">
+		<img src="images/lang1.png" class="item-img">
+		<h3 class="item-title">FRENCH</h3>
+		<span class="price">Rs.800</span><br>
+		<button class="addto">Add To Cart</button>
+	</div>
+
+	<div class="bitems">
+		<img src="images/lang2.jpeg" class="item-img">
+		<h3 class="item-title">ENGLISH FOR ALL</h3>
+		<span class="price">Rs.1000</span><br>
+		<button class="addto">Add To Cart</button>
+	</div>
+
+	<div class="bitems">
+		<img src="images/law1.jpeg" class="item-img">
+		<h3 class="item-title">JUSTICE</h3>
+		<span class="price">Rs.500</span><br>
+		<button class="addto">Add To Cart</button>
+	</div>
+
+	<div class="bitems">
+		<img src="images/novel1.jpeg" class="item-img">
+		<h3 class="item-title">UNDER WESTERN EYES</h3>
+		<span class="price">Rs.800</span><br>
+		<button class="addto">Add To Cart</button>
+	</div>
+
+	<div class="bitems">
+		<img src="images/scifi1.jpeg" class="item-img">
+		<h3 class="item-title">READY PLAYER ONE</h3>
+		<span class="price">Rs.980</span><br>
+		<button class="addto">Add To Cart</button>
+	</div>
+
+	<div class="bitems">
+		<img src="images/scifi2.jpeg" class="item-img">
+		<h3 class="item-title">BLOOD OF BROKEN</h3>
+		<span class="price">Rs.1000</span><br>
+		<button class="addto">Add To Cart</button>
+	</div>
+</div>
+	<script src="js/slideshow.js"></script>
+<footer class="footer">
+
+	<img src="images/the2.png">
+	<p class="fabout">Best online book store <br>Choose any book easily<br>contact us for more</p>
+	
+	<div class="footer-left">
+		<p class="footer-links">
+				  <a href="contactus.html">Contact Us</a>
+				  
+				  <a href="abc.html">Terms and Conditions</a>
+				
+				  <a href="feedback.php">Feedback</a>
+				  
+				  <a href="delivery_info.html">Delivery Information</a>
+		 </p>  
+		
+	</div>
+	
+	<div class="sicons">
+		<a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://twitter.com/login&ved=2ahUKEwiGy-qwurb_AhUva2wGHaVJBb0QFnoECBIQAQ&usg=AOvVaw3swNPrVfKaBGiX8TGfSpkN"><img src="images/twitter.png"></a>
+		<a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://web.whatsapp.com/login&ved=2ahUKEwjgnbieurb_AhV4TmwGHU-dCLoQFnoECBkQAQ&usg=AOvVaw1w6n5V1aeVQP7RspDFHf5X"><img src="images/whatsapp.png"></a>
+		<a href="https://www.facebook.com/profile.php?id=100093298143667&mibextid=ZbWKwL"><img src="images/facebook.png"></a>
+		<a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.instagram.com/accounts/login/&ved=2ahUKEwjzvO3Qt7b_AhUKcWwGHTcrDPgQFnoECAQQAQ&usg=AOvVaw0BRCgcMCVNSSLcNcVjPzsz"><img src="images/instagram.png"></a>
+	</div>
+	
+<p class="footer-company-name">© 2023 Book Wise (Pvt) Ltd. All Rights Received.</p>
+</footer>
+</body>
+</html>
